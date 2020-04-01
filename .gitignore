@@ -1,3 +1,17 @@
+#mobile
+.expo-shared
+.expo
+
+
+
+
+#backend
+node_modules  
+
+
+
+
+# frontend
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
