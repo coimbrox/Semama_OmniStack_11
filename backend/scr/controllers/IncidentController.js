@@ -1,7 +1,9 @@
 const connection = require('../database/connection'); /**importando a conexao com o banco    */
 module.exports = {
     async index(request, response) {
-      const {page = 1} = request.query;
+      const {
+        page = 1
+      } = request.query;
 
       const [count] = await connection('incidents').count();
        
